@@ -1,0 +1,4 @@
+
+ul > li{list-style:circle;}
+ol > li{list-style: upper-alpha;}
+.shadow{text-shadow: 3px 2px #aaa;}
