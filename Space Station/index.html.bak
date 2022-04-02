@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Space Station</title>
+		<style>
+			img {max-width:250px;}
+		</style>
+	</head>
+	<body>
+		<!-- Nav -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>Home</li></a>
+					<a href="#gallery"><li>Gallery</li></a>
+					<a href="#contact"><li>Reservations</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- End Nav -->
+		<!-- Home -->
+		<div id="home">
+			<div>
+				<div>
+					<span>The Space Station</span>
+				</div>
+			</div>
+		</div>
+		<!-- End Home -->
+		<!-- Gallery -->
+		<section>
+			<div>
+				<h1>Gallery</h1>
+				<div id="gallery">
+				
+					<!-- Photo Container 1 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_1.jpg" alt="test">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 1 -->
+					
+					<!-- Photo Container 2 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_2.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 2 -->
+					
+					<!-- Photo Container 3 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_3.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 3 -->
+					
+					<!-- Photo Container 4 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_4.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 4 -->
+					
+					<!-- Photo Container 5 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_5.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 5 -->
+					
+					<!-- Photo Container 6 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_6.jpg" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 6 -->
+					
+					<!-- Photo Container 7 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_7.avif" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 7 -->
+					
+					<!-- Photo Container 8 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_8.avif" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 8 -->
+					
+					<!-- Photo Container 9 -->
+					<div>
+						<div>
+							<img src="images/thumb/thumb_9.webp" alt="">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily....</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Photo Container 9 -->
+					
+				</div>
+			</div>
+				
+		</section>
+		<!-- End Gallery -->
+		
+		<!-- Rsvp -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Reservations</h1>
+					<div>
+						<h2><span>Your adventure is just around the moon.</span>
+							<br />Reserver your flight today!
+						</h2>
+						<p>Please provide us with your basic contact information.</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Rsvp -->
+		
+		<!-- Footer -->
+		<div>
+		
+		</div>
+	</body>
+</html>
