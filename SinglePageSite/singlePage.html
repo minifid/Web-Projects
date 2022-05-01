@@ -4,9 +4,7 @@
 		<meta charset="utf-8">
 		<title>Single Page</title>
 		<link rel="stylesheet" href="./css/one_page_website.css">
-		<style>
-
-		</style>
+		<script src="js/main.js" defer></script>
 	</head>
 	<body>
 		<!-- Nav -->
@@ -35,35 +33,74 @@
 			<div>
 				<h1>Gallery</h1>
 				<div class="container">
-				
+					<div class="row">
 					<!-- Photo Container 1 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumb_1.jpg" alt="">
+						<div class="galleryImg">
+							<img onclick="openModal();currentSlide(4)" src="images/thumb/thumb_1.jpg" alt="">
 						</div>
-					</div>
 					<!-- End Photo Container 1 -->
 					
 					<!-- Photo Container 2 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumb_2.jpg" alt="">
+						<div class="galleryImg">
+							<img onclick="openModal();currentSlide(4)" src="images/thumb/thumb_2.jpg" alt="">
 						</div>
-					</div>
 					<!-- End Photo Container 2 -->
 					
 					<!-- Photo Container 3 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumb_3.webp" alt="">
+						<div class="galleryImg">
+							<img onclick="openModal();currentSlide(4)" src="images/thumb/thumb_3.webp" alt="">
 						</div>
-					</div>
 					<!-- End Photo Container 3 -->
-					
+					</div>
 				</div>
 			</div>
 				
 		</section>
+		<!-- my modal -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<div class="modalRow">
+					<div class="modalSlides">
+						<div class="mySlides">
+							<img src="images/thumb/thumb_1.jpg" style="width:100%">
+						</div>
+					
+						<div class="mySlides">
+							<img src="images/thumb/thumb_2.jpg" style="width:100%">
+						</div>
+					
+						<div class="mySlides">
+							<img src="images/thumb/thumb_3.webp" style="width:100%">
+						</div>
+					</div>
+				</div>
+				
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+				<!-- Caption text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+			
+				<!-- Thumbnail image controls -->
+				<div class="modalRow">
+					<div class="column">
+						<img class="modalSlider" src="images/thumb/thumb_1.jpg" onclick="currentSlide(1)" alt="Nature">
+					</div>
+				
+					<div class="column">
+						<img class="modalSlider" src="images/thumb/thumb_2.jpg" onclick="currentSlide(2)" alt="Snow">
+					</div>
+				
+					<div class="column">
+						<img class="modalSlider" src="images/thumb/thumb_3.webp" onclick="currentSlide(3)" alt="Mountains">
+					</div>
+				</div>
+			</div>
+		  </div>
 		<!-- End Gallery -->
 		
 		<!-- Contact -->
